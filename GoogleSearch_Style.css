@@ -13,7 +13,8 @@
     border-radius: 24px;
     margin: 20px auto;
     text-align: center;
-    width: 582px;
+    width: 98%;
+    max-width: 580px;
     
 
     
@@ -21,18 +22,18 @@
 #formdiv:hover{
   
   
-  box-shadow: 2px 2px 2px 2px darkgray;
+  box-shadow: 0px 0px 3px  darkgray;
 }
 #FormBox{
   margin: auto;
   text-align: center;
-  display: flex;
+  display: block;
   width: 100%;
 }
 
 #SearchBox{
-  margin: auto;
-width: 96%;
+margin: auto 20px;
+width: 90%;
 height: 34px;
 border: none;
 outline: none;
@@ -56,7 +57,7 @@ font-size: 14px;
 
   
 }
-#BS:link,BS:hover,BS:active,BS:visited{
+#BS:link,#BS:hover,#BS:active,#BS:visited{
   width: 100px;
   text-decoration: none;
 
@@ -93,4 +94,16 @@ a:hover,a:active {
   text-align: center;
   cursor: pointer;
   user-select: none;
+  width: 150px;
+}
+.btn2:hover{
+  box-shadow: 0px 0px 3px ;
+}
+#footer{
+  background-color: #70757a;
+  height: auto;
+  min-height: 46px;
+  text-align: center;
+  display: inline-flexbox;
+  border: 1px solid rebeccapurple;
 }
