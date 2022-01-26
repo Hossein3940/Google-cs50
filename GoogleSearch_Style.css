@@ -1,0 +1,96 @@
+#Content{
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  border: 3px solid green;
+  padding: 10px;
+}
+#formdiv{
+    display: flex;
+    height: 44px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 20px auto;
+    text-align: center;
+    width: 582px;
+    
+
+    
+}
+#formdiv:hover{
+  
+  
+  box-shadow: 2px 2px 2px 2px darkgray;
+}
+#FormBox{
+  margin: auto;
+  text-align: center;
+  display: flex;
+  width: 100%;
+}
+
+#SearchBox{
+  margin: auto;
+width: 96%;
+height: 34px;
+border: none;
+outline: none;
+font-size: 16px;
+}
+
+.imgsearch{
+margin: auto;
+padding-top: 3px;
+}
+
+#googlelogo{
+  padding-top: 30px;
+}
+
+#header{
+text-align: right;
+margin: 10px 10px;
+font-family: sans-serif;
+font-size: 14px;
+
+  
+}
+#BS:link,BS:hover,BS:active,BS:visited{
+  width: 100px;
+  text-decoration: none;
+
+}
+.headDesin{
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+}
+a{
+  color: rgba(0,0,0,0.87);
+}
+a:link,a:visited {
+  text-decoration: none;
+}
+
+a:hover,a:active {
+  text-decoration: underline;
+  color: rgba(0,0,0,0.87);
+}
+
+.btn2{
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
