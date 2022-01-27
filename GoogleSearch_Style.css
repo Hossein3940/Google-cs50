@@ -2,7 +2,7 @@
   margin: auto;
   text-align: center;
   width: 100%;
-  border: 3px solid green;
+  
   padding: 10px;
 }
 #formdiv{
@@ -57,10 +57,10 @@ font-size: 14px;
 
   
 }
+
 #BS:link,#BS:hover,#BS:active,#BS:visited{
   width: 100px;
   text-decoration: none;
-
 }
 .headDesin{
   display: inline-block;
@@ -100,10 +100,32 @@ a:hover,a:active {
   box-shadow: 0px 0px 3px ;
 }
 #footer{
-  background-color: #70757a;
+  background-color: rgba(242, 242, 242);
+  
   height: auto;
   min-height: 46px;
   text-align: center;
-  display: inline-flexbox;
-  border: 1px solid rebeccapurple;
+  display: flex;
+  justify-content: space-between;
+  font-family: arial,sans-serif;
+  font-size: 14px;
 }
+@media only screen and (max-width: 669px){
+   #footer{
+     display: block;
+     justify-content: center;
+     
+   }
+}
+.footer-text{
+  margin: 9px;
+  color: gray;
+ }
+
+ .Space{
+  width: 100%; 
+  height: 100%;
+  min-height: 305px;
+ }
+
+ 
