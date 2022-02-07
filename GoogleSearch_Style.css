@@ -2,9 +2,12 @@
   margin: auto;
   text-align: center;
   width: 100%;
-  
   padding: 10px;
+
 }
+
+
+
 #formdiv{
     display: flex;
     height: 44px;
@@ -109,23 +112,37 @@ a:hover,a:active {
   justify-content: space-between;
   font-family: arial,sans-serif;
   font-size: 14px;
-}
+  width: 100%;
+  
+  position: fixed;
+  bottom: 0;
+   
+ }
+ .FA{
+  padding: 10px;
+ }
+
 @media only screen and (max-width: 669px){
    #footer{
      display: block;
      justify-content: center;
      
+     
    }
 }
+
+@media only screen and (max-height: 400px){
+  #footer{
+   
+   position: static;
+  }
+}
+
 .footer-text{
   margin: 9px;
   color: gray;
  }
 
- .Space{
-  width: 100%; 
-  height: 100%;
-  min-height: 305px;
- }
+
 
  
